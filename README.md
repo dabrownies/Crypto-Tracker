@@ -81,7 +81,11 @@ Contains all project documentation
    
 ![Failed Screenshot](./public/images/failed.png)
 
+## Improvements
 
+## Add real-time price charts, displaying mutli-interval price history
+## Add stats and about cards for every crypto to showcase relevant market data and descriptions
+## Cache frequently searched cryptocurrencies
 
 
 

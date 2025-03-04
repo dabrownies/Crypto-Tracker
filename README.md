@@ -27,7 +27,7 @@ A **real-time cryptocurrency price tracker** built with **Next.js**, featuring l
 git clone https://github.com/dabrownies/crypto-price-tracker.git
 cd crypto-price-tracker
 ```
-### 2. Clone the Repository
+### 2. Install Dependencies
 ```bash
 npm install
 # or

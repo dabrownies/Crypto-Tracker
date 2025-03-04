@@ -64,18 +64,18 @@ Contains all project documentation
 ## Example Usage
 
 ### Dashboard Display
-- Displays live prices with up to date market data
-- Updates data upon every window refresh
-- Supports manual refresh 
+1. Displays live prices with up to date market data
+2. Updates data upon every window refresh
+3. Supports manual refresh 
 ![Dashboard Screenshot](./public/images/dashboard.png)
 
 ### Searching For Coins
-- Dynamically searches for coins as you type, providing live filtering via the dashboard
-- Case insensitive for better accuracy
+1. Dynamically searches for coins as you type, providing live filtering via the dashboard
+2. Case insensitive for better accuracy
 ![Search Screenshot](./public/images/search.png)
 
 ### Invalid Search
-- Displays error message for no results
+1. Displays error message for no results
 ![Failed Screenshot](./public/images/failed.png)
 
 

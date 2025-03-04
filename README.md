@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Crypto Price Tracker
+
+A **real-time cryptocurrency price tracker** built with **Next.js**, featuring live updates for the latest prices of five major cryptocurrencies, **dynamic search and filtering**, and **market insights** like **24-hour price changes** and **daily trading volume**.
+
+## Features:
+- **Live Price Updates**: Displays the latest prices for five major cryptocurrencies.
+- **Dynamic Search & Filtering**: Quickly find and filter cryptocurrencies by name or symbol.
+- **Market Insights**: View helpful details such as **24-hour price change** and **daily trading volume**.
+- **Live Refreshing**: The data updates automatically at regular intervals.
+-  **CoinGecko API Integration**: Fetches real-time data from the [CoinGecko API](https://www.coingecko.com/en/api).
+
+## Technologies Used
+- **JavaScript**: For building the front end and back end of the application.
+- **Node.js**: Backend framework to handle server-side logic.
+- **React**: For the interactive user interface.
+- **React Query**: For easy API integration with caching performance and error handling.
+- **Next.js**: Used for the front end of the platform.
+- **Tailwind**: Used for dynamic styling in front end interface.
+- **Shadcn/ui**: Provided UI components for user interaction.
+- **React-bits**: Animated UI components
+- **Framer-Motion**: Used to create UI implementation.
 
 ## Getting Started
 
-First, run the development server:
+### 1. Clone the Repository
+```bash
+git clone https://github.com/dabrownies/crypto-price-tracker.git
+cd crypto-price-tracker
+```
+### 2. Install Dependencies
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
 
+### 3. No API Key required
+- CoinGecko's free API allows for simple data fetching without the use of API keys
+
+### 4. Run Development Server
 ```bash
 npm run dev
 # or
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
+- Open http://localhost:3000 in your browser.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Directory Structure
+### /app
+Defines all of the project's frontend pages.
+### /components
+Contains UI components and animations.
+### /lib
+Directory contains API handling and utils.
+### /docs-site
+Contains all project documentation
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## Example Usage
 
-To learn more about Next.js, take a look at the following resources:
+### Dashboard Display
+![Dashboard Screenshot](crypto-price-tracker/public/images/dashboard.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+

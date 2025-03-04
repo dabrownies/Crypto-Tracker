@@ -75,15 +75,6 @@ Contains all project documentation
 - Displays error message for no results
 ![Failed Screenshot](./public/images/failed.png)
 
-### Refreshing Data
-- Market data refreshes upon window refresh
-- You can manually refresh data as needed
-![Refresh Screenshot](./public/images/refresh.png)
-
-### Compatible With Mobile
-- Responsive design for all screen sizes
-![Mobile Screenshot](./public/images/mobile.png)
-
 
 
 

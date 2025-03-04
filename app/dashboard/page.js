@@ -7,7 +7,7 @@ import { useState } from "react";
 import { useQuery } from "@tanstack/react-query";
 import fetchCryptoPrices from "@/lib/fetchCryptoPrices";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
-import newLoading from "@/public/newLoading.json";
+import newLoading from "@/public/loadingAnimations/newLoading.json";
 import { RefreshCw } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import FuzzyText from "@/components/ui/TextAnimations/FuzzyText/FuzzyText";

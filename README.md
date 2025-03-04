@@ -9,7 +9,18 @@ A **real-time cryptocurrency price tracker** built with **Next.js**, featuring l
 - **Live Refreshing**: The data updates automatically at regular intervals.
 -  **CoinGecko API Integration**: Fetches real-time data from the [CoinGecko API](https://www.coingecko.com/en/api).
 
-## 🚀 Getting Started
+## Technologies Used
+- **JavaScript**: For building the front end and back end of the application.
+- **Node.js**: Backend framework to handle server-side logic.
+- **React**: For the interactive user interface.
+- **React Query**: For easy API integration with caching performance and error handling.
+- **Next.js**: Used for the front end of the platform.
+- **Tailwind**: Used for dynamic styling in front end interface.
+- **Shadcn/ui**: Provided UI components for user interaction.
+- **React-bits**: Animated UI components
+- **Framer-Motion**: Used to create UI implementation.
+
+## Getting Started
 
 ### 1. Clone the Repository
 ```bash
@@ -39,31 +50,19 @@ pnpm dev
 - Open http://localhost:3000 in your browser.
 
 
-### Project Structure
-crypto-price-tracker/
-├── .next/                  # Next.js build directory
-├── app/                    # Application source
-│   └── dashboard/          # Dashboard pages
-│       ├── page.js         # Dashboard main page
-│       ├── favicon.ico     # Browser tab icon
-│       ├── globals.css     # Global styles
-│       ├── layout.js       # Layout component
-│       └── page.js         # Page component
-├── components/             # Reusable components
-│   └── ui/                 # UI component library
-│       ├── TextAnimations/ # Text animation components
-│       ├── button.jsx      # Button component
-│       ├── card.jsx        # Card component
-│       ├── input.jsx       # Input component
-│       └── skeleton.jsx    # Skeleton loading component
-├── docs-site/              # Documentation website
-├── lib/                    # Utility libraries
-│   ├── fetchCryptoPrices.js # API service for crypto prices
-│   └── utils.js            # General utility functions
+## Directory Structure
+### /app
+Defines all of the project's frontend pages.
+### /components
+Contains UI components and animations.
+### /lib
+Directory contains API handling and utils.
+### /docs-site
+Contains all project documentation
 
 
-### Example Usage
-
+### Dashboard Display
+![Dashboard Screenshot](./public/images/dashboard.png)
 
 
 

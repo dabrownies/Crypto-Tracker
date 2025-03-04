@@ -64,7 +64,7 @@ Contains all project documentation
 ## Example Usage
 
 ### Dashboard Display
-[Dashboard Screenshot](./public/images/dashboard.png)
+![Dashboard Screenshot](crypto-price-tracker/public/images/dashboard.png)
 
 
 

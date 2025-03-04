@@ -23,4 +23,9 @@ title: Project Setup Guide
     npm run ios     # For iOS (Mac required)
     ```
 
+4. Open On Your Browser at:
+```bash
+   http://localhost:3000
+```
+
 

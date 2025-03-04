@@ -8,40 +8,16 @@ title: State Management
 
 ## Why I Chose React Query
 
-I used **React Query** to handle API calls because:
-- Automatic caching (and custom) for API requests for better performance
-- Automatically refetches stale data.
-- Simplifies fetching logic compared to manual `useState` + `useEffect`.
+For this project, I needed a reliable and efficient way to fetch, cache, and manage cryptocurrency price data from the CoinGecko API. Instead of using traditional state management with useState and useEffect, I opted for React Query due to its powerful features that simplify API handling. Below are the key reasons for this decision:
 
-### Example Usage:
-```javascript
-import axios from 'axios';
+## Automatic Data Fetching & Caching
+- React Query automatically fetches and caches API responses, reducing redundant network requests. This is crucial for a crypto tracker where real-time price updates are needed while avoiding unnecessary API calls.
 
-const fetchCryptoPrices = async () => {
-  try {
-    const timestamp = new Date().getTime();
-    
-    return new Promise((resolve) => {
-      setTimeout(async () => {
-        const response = await axios.get(
-          'https://api.coingecko.com/api/v3/coins/markets',
-          {
-            params: {
-              vs_currency: 'usd',
-              ids: 'bitcoin,ethereum,cardano,solana,ripple',
-              _t: timestamp
-            },
-          }
-        );
-        resolve(response.data);
-      }, 3000);
-    });
-  } catch (error) {
-    console.error('Error fetching crypto prices: ', error.message);
-    // return empty array (zero crypto prices) if price fetching fails
-    return [];
-  }
-};
+## Background Refetching for Real-Time Updates
+Crypto prices fluctuate constantly. React Query ensures the data remains fresh by refetching in the background when:
+- The user revisits the page.
+- A specified time interval (staleTime) is reached.
+- The window regains focus.
 
-export default fetchCryptoPrices;
-```
+## Built-in Loading & Error Handling
+- Instead of manually tracking loading and error states, React Query provides built-in support.

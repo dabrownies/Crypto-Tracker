@@ -38,5 +38,14 @@ title: Challenges & Solutions
 
   ```javascript
   key={asset.id + Math.random()}
-```
+  ```
 This is a strategic trick that tells React each component is completely new after a refresh, forcing it to rebuild the DOM elements with fresh data.
+
+### Desired Improvements:
+
+## Allow for real-time chart data (candlestick and line)
+
+## Stats and About cards for users to explore other market data, information, and recent news regarding each coin.
+
+## Manually cache frequently searched cryptocurrencies
+

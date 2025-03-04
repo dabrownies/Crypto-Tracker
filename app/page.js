@@ -45,11 +45,11 @@ export default function CryptoReservePage() {
 
             <div className="mt-16 grid grid-cols-2 md:grid-cols-5 gap-4 md:gap-8">
               {[
-                { name: "Bitcoin", symbol: "BTC", logo: "/Bitcoin.svg.png" },
-                { name: "Ethereum", symbol: "ETH", logo: "/ethereum.jpg" },
-                { name: "Solana", symbol: "SOL", logo: "/solanaNew.png" },
-                { name: "XRP", symbol: "XRP", logo: "/XRP.png.webp" },
-                { name: "Cardano", symbol: "ADA", logo: "/cardano.webp" },
+                { name: "Bitcoin", symbol: "BTC", logo: "/logos/Bitcoin.svg.png" },
+                { name: "Ethereum", symbol: "ETH", logo: "/logos/ethereum.jpg" },
+                { name: "Solana", symbol: "SOL", logo: "/logos/solanaNew.png" },
+                { name: "XRP", symbol: "XRP", logo: "/logos/XRP.png.webp" },
+                { name: "Cardano", symbol: "ADA", logo: "/logos/cardano.webp" },
               ].map((crypto) => (
                 <motion.div
                   key={crypto.symbol}

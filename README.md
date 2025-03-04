@@ -65,10 +65,13 @@ Contains all project documentation
 
 ### Dashboard Display
 - Displays live prices with up to date market data
+- Updates data upon every window refresh
+- Supports manual refresh 
 ![Dashboard Screenshot](./public/images/dashboard.png)
 
 ### Searching For Coins
-- Dynamically searches for coins as you type
+- Dynamically searches for coins as you type, providing live filtering via the dashboard
+- Case insensitive for better accuracy
 ![Search Screenshot](./public/images/search.png)
 
 ### Invalid Search

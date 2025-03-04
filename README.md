@@ -83,9 +83,9 @@ Contains all project documentation
 
 ## Improvements
 
-## Add real-time price charts, displaying mutli-interval price history
-## Add stats and about cards for every crypto to showcase relevant market data and descriptions
-## Cache frequently searched cryptocurrencies
+### 1. Add real-time price charts, displaying mutli-interval price history
+### 2. Add stats and about cards for every crypto to showcase relevant market data and descriptions
+### 3. Cache frequently searched cryptocurrencies
 
 
 
